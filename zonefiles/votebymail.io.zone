@@ -1,4 +1,4 @@
-$ORIGIN mailmyballot.org.
+$ORIGIN votebymail.io.
 
 ; GSuite email
 @						IN MX			1	aspmx.l.google.com.

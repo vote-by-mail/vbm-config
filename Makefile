@@ -1,5 +1,3 @@
-org:
-	now dns import mailmyballot.org zonefiles/mailmyballot.org.zone
+config:
+	now dns import votebymail.io zonefiles/votemyail.io.zone
 
-co:
-	now dns import mailmyballot.co zonefiles/mailmyballot.co.zone

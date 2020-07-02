@@ -7,7 +7,7 @@ $ORIGIN votebymail.io.
 @						IN MX			10	alt3.aspmx.l.google.com.
 @						IN MX			10	alt4.aspmx.l.google.com.
 @						IN MX			15  yacxhhxbqxxa2m44xdmu3qsuilsdc2vfebldp7av7u7zzp2bbzoa.mx-verification.google.com.
-google._domainkey		IN TXT				"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw/fpRWxm+NCUsFvzVwdMugCNu5Pw8vmj/nM8RNWfNZMokLoXaOcwsAosp8VJfbfvWMo54d7TjnpOf0wMMJURJut1htDHH0oSsTe+wqGg8lT10wnxCRZK0RZARa5Nh3Z6//ydG9pkvqSjKsUYu1uscWdlvBO20xHcRco3mbYY/O2Kj1cZnVvbYxC3wu/UJOURRU5vrSd2akSR3JqajOjCuUjDctvcpmzDvc8m4NLS+m8iBrBVta/RpiRGtPDf5oA8jHyVgqKxT/hX2nzdFJ8ZDRpGVs65w1ZXdk4Z/z38hv53Updg092++U0/r7xtUzJj4LjzRAflY+z8rfHPnn6SzwIDAQAB"
+google._domainkey		IN TXT				"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApmBcDcJRQ1KdHJViuXZsdMaTDzvgju0GLauhS4ITazVLBzzLaZjBFjlp6Ub1uZ9+v+p5glekYfh1WmRYCk+9xiFkTKfrG99X3Rl9XhWFjYiQkzIHNmgtVWZUpiN0Gi16pOrQgFh4JsIJqzbK0cWQnBDQzTO4HHLzp4SAO//Qf+U5ZTnkCkfiQxrANb/HiWTnFheTim+dFv/0qvPB/8U0TMBN28lKOeMtZ/ZcIFqxvbsO10H61JCMclqlLoJfLG6FpXNYYF4aUMV53fIUlKm85FS3AsOpGF9zpG4drHdwWKO0TqKSfO63yuqJtiIqG1Xo0aRJ1i7eY7DvTRARL3ty+QIDAQAB"
 
 ; Mailchimp DKIM
 k1._domainkey           IN CNAME            dkim.mcsv.net
@@ -20,7 +20,7 @@ email					IN TXT 				v=spf1 include:mailgun.org ~all
 email					IN MX 			10	mxa.mailgun.org.
 email					IN MX 			10	mxb.mailgun.org.
 email.email				IN CNAME 			mailgun.org.
-krs._domainkey.email	IN TXT 				"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDanswo2OKDmGLrrDU4bk6uL9lQCui2LNRA5Wh9SAA9KI60Lsc0X8PUyvA+xyGaGioJ8oPIxr567KCzIAZZ/vlPkmN12PWB2YIQPU19lBXlcQ0F1Uh0PVrqHq3x6RM1erzwH1IwL2sBwy/gTdiF8gtd6sDymv3PK3LuXMWdAQwaZQIDAQAB"
+mx._domainkey.email	IN TXT 				"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmNDmCLAD2s+w5977gA3gtrqXZ3Cq1viNWLdZYS7HJhikecYHCS+hi074ejPMUBJnqU31SNWMs/nNRPZZ3Hj2WZKhuvJxA5EjKTishUUrQJt0/ObLtR1Jl98ocO4z/l4ji9+X97WdymEK1VpFXgcT6b29X0QdW0faYcY5VBW7eInII1zIO5RjhDDSqPXJ2wJ2iYPno1i0A6EriqZoUzKg16+OrrVBfTZ+MVe5TEii6BDEioU6nIetP3QNBU0XhS85ANKrpWpQX6KNMsPUrTsHfxTqg5LsjkK0hVvgtCYOR/n2w4YAakjb0HUr7ku7oMXaZcpsvmtEwKdIV5MvRvHmhwIDAQAB"
 
 ; gcloud app-staging
 app-staging				IN TXT				google-site-verification=f21s8DObQ3XRgfONvW2o5qBrjFDJwXW9V2Oypn1ogUM

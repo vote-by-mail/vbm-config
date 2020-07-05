@@ -22,16 +22,16 @@ email					IN MX 			10	mxb.mailgun.org.
 email.email				IN CNAME 			mailgun.org.
 mx._domainkey.email	IN TXT 				"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmNDmCLAD2s+w5977gA3gtrqXZ3Cq1viNWLdZYS7HJhikecYHCS+hi074ejPMUBJnqU31SNWMs/nNRPZZ3Hj2WZKhuvJxA5EjKTishUUrQJt0/ObLtR1Jl98ocO4z/l4ji9+X97WdymEK1VpFXgcT6b29X0QdW0faYcY5VBW7eInII1zIO5RjhDDSqPXJ2wJ2iYPno1i0A6EriqZoUzKg16+OrrVBfTZ+MVe5TEii6BDEioU6nIetP3QNBU0XhS85ANKrpWpQX6KNMsPUrTsHfxTqg5LsjkK0hVvgtCYOR/n2w4YAakjb0HUr7ku7oMXaZcpsvmtEwKdIV5MvRvHmhwIDAQAB"
 
-; gcloud app-staging
-app-staging				IN TXT				google-site-verification=-NFZ_DDjWFu3PxmL15hwXKDE6mPQpZV7McK5MYIua2U
-app-staging				IN A 				216.239.32.21
-app-staging				IN A 				216.239.34.21
-app-staging				IN A 				216.239.36.21
-app-staging				IN A 				216.239.38.21
-app-staging				IN AAAA 			2001:4860:4802:32::15
-app-staging				IN AAAA 			2001:4860:4802:34::15
-app-staging				IN AAAA 			2001:4860:4802:36::15
-app-staging				IN AAAA 			2001:4860:4802:38::15
+; gcloud staging-app
+staging-app				IN TXT				google-site-verification=qGAKUCVByugx-zheZG07jVf9uTsutwQA0373TVemBas
+staging-app				IN A 				216.239.32.21
+staging-app				IN A 				216.239.34.21
+staging-app				IN A 				216.239.36.21
+staging-app				IN A 				216.239.38.21
+staging-app				IN AAAA 			2001:4860:4802:32::15
+staging-app				IN AAAA 			2001:4860:4802:34::15
+staging-app				IN AAAA 			2001:4860:4802:36::15
+staging-app				IN AAAA 			2001:4860:4802:38::15
 
 ; gcloud app
 app                     IN TXT				google-site-verification=E609hIqmSg3VxEFNdpzy94m7Tf03itfz7J5i7WV4ke0

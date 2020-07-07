@@ -34,7 +34,7 @@ staging-app				IN AAAA 			2001:4860:4802:36::15
 staging-app				IN AAAA 			2001:4860:4802:38::15
 
 ; gcloud app
-app                     IN TXT				google-site-verification=gzccUK9R7SNIsTeVtKjnSVuOA-JC3htL5KBto2jKSLQ
+app                     IN TXT				google-site-verification=iIKCGEVuvIVpdd1S9kTAmkv0EuNs77MOjOGqGIjclAM
 app     				IN A 				216.239.32.21
 app     				IN A 				216.239.34.21
 app     				IN A 				216.239.36.21

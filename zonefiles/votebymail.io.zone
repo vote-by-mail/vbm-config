@@ -1,5 +1,8 @@
 $ORIGIN votebymail.io.
 
+; www CNAME
+www            CNAME  @
+
 ; GSuite email
 @						IN MX			1	aspmx.l.google.com.
 @						IN MX			5	alt1.aspmx.l.google.com.

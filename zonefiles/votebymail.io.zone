@@ -35,6 +35,7 @@ staging-app				IN AAAA 			2001:4860:4802:32::15
 staging-app				IN AAAA 			2001:4860:4802:34::15
 staging-app				IN AAAA 			2001:4860:4802:36::15
 staging-app				IN AAAA 			2001:4860:4802:38::15
+www.staging-app   CNAME       staging-app.votebymail.io.
 
 ; gcloud app
 app                     IN TXT				google-site-verification=iIKCGEVuvIVpdd1S9kTAmkv0EuNs77MOjOGqGIjclAM
@@ -46,6 +47,7 @@ app     				IN AAAA 			2001:4860:4802:32::15
 app     				IN AAAA 			2001:4860:4802:34::15
 app     				IN AAAA 			2001:4860:4802:36::15
 app     				IN AAAA 			2001:4860:4802:38::15
+www.app            CNAME    app.votebymail.io.
 
 ; Sendin Blue
 mail._domainkey.newsletter	IN TXT			"k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB"

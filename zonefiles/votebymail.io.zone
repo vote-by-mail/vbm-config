@@ -24,6 +24,16 @@ email					IN MX 			10	mxa.mailgun.org.
 email					IN MX 			10	mxb.mailgun.org.
 email.email				IN CNAME 			mailgun.org.
 mx._domainkey.email	IN TXT 				"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmNDmCLAD2s+w5977gA3gtrqXZ3Cq1viNWLdZYS7HJhikecYHCS+hi074ejPMUBJnqU31SNWMs/nNRPZZ3Hj2WZKhuvJxA5EjKTishUUrQJt0/ObLtR1Jl98ocO4z/l4ji9+X97WdymEK1VpFXgcT6b29X0QdW0faYcY5VBW7eInII1zIO5RjhDDSqPXJ2wJ2iYPno1i0A6EriqZoUzKg16+OrrVBfTZ+MVe5TEii6BDEioU6nIetP3QNBU0XhS85ANKrpWpQX6KNMsPUrTsHfxTqg5LsjkK0hVvgtCYOR/n2w4YAakjb0HUr7ku7oMXaZcpsvmtEwKdIV5MvRvHmhwIDAQAB"
+email.staging			IN TXT 				v=spf1 include:mailgun.org ~all
+email.staging			IN MX 			10	mxa.mailgun.org.
+email.staging			IN MX 			10	mxb.mailgun.org.
+email.email.staging		IN CNAME 			mailgun.org.
+pic._domainkey.email	IN TXT 				"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+eBMySwOnyLN7TPJe7OMRjA2OL4fpgP3CC/gJR0jcTyiVjG2D55w37LzpwtxKBexrLuCgQV1XxLqEgx0fIjZybexu3qFgVtgZFIYLRE2ki+Ge+L+uSzvHezkpmHk6R6T3DmGaQb9iniK+PFRcOhDHqRM0GTepyRyy2wFYSAfl8wIDAQAB"
+email.dev			    IN TXT 				v=spf1 include:mailgun.org ~all
+email.dev			    IN MX 			10	mxa.mailgun.org.
+email.dev			    IN MX 			10	mxb.mailgun.org.
+email.email.dev		    IN CNAME 			mailgun.org.
+krs._domainkey.email	IN TXT 				"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKoGDe8YrLdglG1m6eJwiTEcdNBdgWSqjc7avlOkeJFJ/z+WBPqamNIDT/Q1DpZ7QBeMlu69MjlUMsdM63NujZ7FgX7Fl09nCGBcffNV7weghNdB3l3IcK3CcMLFPY2a6jfiyKjUiUVUJvkODjUo93zzfmbPF5x0B1DcYxEy0EWQIDAQAB"
 
 ; gcloud staging-app
 dev-app				      IN TXT				google-site-verification=2222m7Hvj-lZEUc5URAzK85R9Z6puvjps_gGhUAIyO4

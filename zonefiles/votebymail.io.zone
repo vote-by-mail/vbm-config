@@ -24,6 +24,7 @@ email					        IN MX 			10	mxa.mailgun.org.
 email					        IN MX 			10	mxb.mailgun.org.
 email.email				        IN CNAME 			mailgun.org.
 mx._domainkey.email	            IN TXT 				"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmNDmCLAD2s+w5977gA3gtrqXZ3Cq1viNWLdZYS7HJhikecYHCS+hi074ejPMUBJnqU31SNWMs/nNRPZZ3Hj2WZKhuvJxA5EjKTishUUrQJt0/ObLtR1Jl98ocO4z/l4ji9+X97WdymEK1VpFXgcT6b29X0QdW0faYcY5VBW7eInII1zIO5RjhDDSqPXJ2wJ2iYPno1i0A6EriqZoUzKg16+OrrVBfTZ+MVe5TEii6BDEioU6nIetP3QNBU0XhS85ANKrpWpQX6KNMsPUrTsHfxTqg5LsjkK0hVvgtCYOR/n2w4YAakjb0HUr7ku7oMXaZcpsvmtEwKdIV5MvRvHmhwIDAQAB"
+staging                         ALIAS               alias.vercel-dns.com.
 email.staging			        IN TXT 				v=spf1 include:mailgun.org ~all
 email.staging			        IN MX 			10	mxa.mailgun.org.
 email.staging			        IN MX 			10	mxb.mailgun.org.
